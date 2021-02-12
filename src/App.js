@@ -6,6 +6,7 @@ import PieChart from './components/PieChart/PieChart'
 import { Switch,Route } from "react-router-dom";
 
  function App() {
+   const port = process.env.PORT || 3000;
   return (
     
     <div>
